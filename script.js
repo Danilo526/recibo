@@ -3,7 +3,7 @@ let codigosUsados = JSON.parse(localStorage.getItem("codigosUsados")) || [];
 
 // CÓDIGOS MANUAIS VÁLIDOS
 const codigosValidos = {
-  "Russo71": 20,
+  "Russofree": 20,
   "REC-10-20B": 20,
   "REC-10-20C": 20
 };
@@ -54,3 +54,4 @@ function ativarCodigo() {
   atualizarTela();
   alert("Créditos liberados!");
 }
+
