@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Recibos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Gerador de Recibos</h1>
+
+    <p class="creditos">Créditos disponíveis: <span id="creditos">0</span></p>
+
+    <label>Vendedor</label>
+    <input id="vendedor">
+
+    <label>Comprador</label>
+    <input id="comprador">
+
+    <label>Produto</label>
+    <input id="produto">
+
+    <label>Valor (R$)</label>
+    <input id="valor">
+
+    <button onclick="gerarRecibo()">Gerar Recibo</button>
+
+    <div class="nao-imprimir">
+  <hr>
+  <h3>Ativar créditos</h3>
+  <input id="codigo" placeholder="Digite o código">
+  <button onclick="ativarCodigo()">Ativar</button>
+</div>
+
+
+    <p class="aviso">
+      Este sistema gera recibos de venda e não substitui nota fiscal.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

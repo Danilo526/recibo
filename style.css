@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  background: white;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.creditos {
+  text-align: center;
+  font-weight: bold;
+}
+
+.aviso {
+  font-size: 12px;
+  color: gray;
+  margin-top: 15px;
+}
+@media print {
+  .nao-imprimir {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+
+  body {
+    background: white;
+  }
+}
